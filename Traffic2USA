@@ -1,5 +1,5 @@
 # NAME: Traffic2USA
-# AUTHOR: shyguylaw
+# For own use
 host-suffix, openai.com, 指向美国节点 🇺🇸
 host-suffix, gstatic.com, 指向美国节点 🇺🇸
 host-suffix, ocsp.pki.goog, 指向美国节点 🇺🇸
