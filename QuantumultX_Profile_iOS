@@ -40,8 +40,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 [rewrite_remote]
 
 [server_local]
-vmess = matttx.shyguy.cyou:443, method=chacha20-ietf-poly1305, password=654096af-2073-4c98-b596-57ef9f6f376a, aead=true, tls13=false, obfs=wss, obfs-host=matttx.shyguy.cyou, obfs-uri=/lawvws, fast-open=false, udp-relay=true, tag=HK_VMess_WS
-vmess = usatx.shyguy.cyou:443, method=chacha20-ietf-poly1305, password=2e5d8290-2d34-4cda-a4d7-b113c3493d71, aead=true, tls13=false, obfs=wss, obfs-host=usatx.shyguy.cyou, obfs-uri=/lawvws, fast-open=false, udp-relay=true, tag=USA_VMess_WS
+
 
 [filter_local]
 host-suffix, etsy.com, 指向香港节点 🇭🇰
