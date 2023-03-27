@@ -20,6 +20,8 @@ static=Bing, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, d
 static=WeChat, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=d.square.system
 static=Telegram, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=h.square.system
 static=Apple, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=d.square.system
+static=Google, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=d.square.system
+static=Alibaba, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=d.square.system
 static=🐟 漏网之鱼, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=h.square.system
 
 [server_remote]
@@ -30,36 +32,17 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, tag=WeChat, update-interval=172800, opt-parser=false, enabled=true
 https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list, tag=Telegram, update-interval=172800, opt-parser=false, enabled=true
 https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Apple/Apple.list, tag=Apple, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list, tag=Google, update-interval=172800, opt-parser=false, enabled=true
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Alibaba/Alibaba.list, tag=Alibaba, update-interval=172800, opt-parser=false, enabled=true
 
 [rewrite_remote]
+https://raw.githubusercontent.com/shyguylaw/Rules/main/Rewrite?token=GHSAT0AAAAAACATD2DJEARMRMNR4Z6LX4ZSZBBMBOA, tag=Google, update-interval=172800, opt-parser=false, enabled=true
 
 [server_local]
 vmess = matttx.shyguy.cyou:443, method=chacha20-ietf-poly1305, password=654096af-2073-4c98-b596-57ef9f6f376a, aead=true, tls13=false, obfs=wss, obfs-host=matttx.shyguy.cyou, obfs-uri=/lawvws, fast-open=false, udp-relay=true, tag=HK_VMess_WS
 vmess = usatx.shyguy.cyou:443, method=chacha20-ietf-poly1305, password=2e5d8290-2d34-4cda-a4d7-b113c3493d71, aead=true, tls13=false, obfs=wss, obfs-host=usatx.shyguy.cyou, obfs-uri=/lawvws, fast-open=false, udp-relay=true, tag=USA_VMess_WS
 
 [filter_local]
-host-suffix, bitcoinstats.com, 🎯 全球直连
-host-suffix, bitnodes.io, 🎯 全球直连
-host-suffix, binance.com, 指向香港节点 🇭🇰
-host-suffix, binance.cloud, 指向香港节点 🇭🇰
-host-suffix, facebook.com, 🇭🇰 香港节点
-host-suffix, openai.com, 指向美国节点 🇺🇸
-host-suffix, paypal.com, 指向香港节点 🇭🇰
-host-suffix, gstatic.com, 指向美国节点 🇺🇸
-host-suffix, ocsp.pki.goog, 指向美国节点 🇺🇸
-host-suffix, googleusercontent.com, 指向美国节点 🇺🇸
-host-suffix, googleapis.com, 指向美国节点 🇺🇸
-host-suffix, ggpht.com, 指向美国节点 🇺🇸
-host-suffix, google.com, 指向美国节点 🇺🇸
-host-suffix, appcenter.ms, 指向美国节点 🇺🇸
-host-suffix, shopee.com, 🎯 全球直连
-host-suffix, clarity.ms, 指向美国节点 🇺🇸
-host-suffix, etsystatic.com, 指向香港节点 🇭🇰
-host-suffix, coinw.cool, 🎯 全球直连
-host-suffix, hyperpay.online, 🎯 全球直连
-host-suffix, akamaized.net, 指向美国节点 🇺🇸
-host-suffix, bing.com, 指向美国节点 🇺🇸
-host-suffix, etsy.com, 指向香港节点 🇭🇰
 GEOIP,CN,direct
 FINAL,🐟 漏网之鱼
 
