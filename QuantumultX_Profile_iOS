@@ -15,32 +15,21 @@ static=🇭🇰 香港节点, HK_VMess_WS, img-url=h.circle.fill.system
 static=🇺🇸 美国节点, USA_VMess_WS, img-url=u.circle.fill.system
 static=指向香港节点 🇭🇰, 🇭🇰 香港节点, img-url=h.circle.fill.system
 static=指向美国节点 🇺🇸, 🇺🇸 美国节点, img-url=u.circle.fill.system
-static=🎯 全球直连, direct, img-url=d.circle.fill.system
-static=🛑 全球拦截, reject, direct, img-url=r.circle.fill.system
-static=🐟 漏网之鱼, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, img-url=h.square.system
-static=Ⓜ️ 微软服务, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, img-url=u.square.system
-static=Bing, 指向美国节点 🇺🇸, img-url=b.square.system
-static=🌍 国外媒体, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, img-url=h.square.system
-static=📲 电报信息, 指向香港节点 🇭🇰, 指向美国节点 🇺🇸, img-url=h.square.system
-static=🎥 NETFLIX, 指向美国节点 🇺🇸, img-url=u.square.system
-static=🍎 苹果服务, 🎯 全球直连, img-url=d.square.system
-static=🌏 国内媒体, 🎯 全球直连, img-url=d.square.system
-static=WeChat, 🎯 全球直连, img-url=d.square.system
-static=⛔️ 广告拦截, 🛑 全球拦截, 🎯 全球直连, img-url=r.square.system
-static=🚫 运营劫持, 🛑 全球拦截, 🎯 全球直连, img-url=r.square.system
+static=Microsoft, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=u.square.system
+static=Bing, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=b.square.system
+static=WeChat, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=d.square.system
+static=Telegram, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=h.square.system
+static=Apple, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=d.square.system
+static=🐟 漏网之鱼, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=h.square.system
 
 [server_remote]
 
 [filter_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Bing/Bing.list, tag=Ⓜ️ Bing, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, tag=💬 微信服务, update-interval=172800, opt-parser=false, enabled=true
-https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTVNTZXJ2aWNlcy5saXN0&group=4pOC77iPIOW-rui9r-acjeWKoQ, tag=Ⓜ️ 微软服务, update-interval=172800, opt-parser=false, enabled=true
-https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, update-interval=172800, opt-parser=false, enabled=true
-https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0FkUnVsZS5saXN0&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, update-interval=172800, opt-parser=false, enabled=true
-https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvVmlkZW8vTmV0ZmxpeC5saXN0&group=8J-OpSBORVRGTElY, tag=🎥 NETFLIX, update-interval=172800, opt-parser=false, enabled=true
-https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvU3RyZWFtaW5nLmxpc3Q&group=8J-MjSDlm73lpJblqpLkvZM, tag=🌍 国外媒体, update-interval=172800, opt-parser=false, enabled=true
-https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvVGVsZWdyYW0vVGVsZWdyYW0ubGlzdA&group=8J-TsiDnlLXmiqXkv6Hmga8, tag=📲 电报信息, update-interval=172800, opt-parser=false, enabled=true
-https://pub-api-1.bianyuan.xyz/getruleset?type=2&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvQXBwbGUvQXBwbGUubGlzdA&group=8J-NjiDoi7nmnpzmnI3liqE, tag=🍎 苹果服务, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list, tag=Microsoft, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Bing/Bing.list, tag=Bing, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, tag=WeChat, update-interval=172800, opt-parser=false, enabled=true
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list, tag=Telegram, update-interval=172800, opt-parser=false, enabled=true
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Apple/Apple.list, tag=Apple, update-interval=172800, opt-parser=false, enabled=true
 
 [rewrite_remote]
 
@@ -71,7 +60,7 @@ host-suffix, hyperpay.online, 🎯 全球直连
 host-suffix, akamaized.net, 指向美国节点 🇺🇸
 host-suffix, bing.com, 指向美国节点 🇺🇸
 host-suffix, etsy.com, 指向香港节点 🇭🇰
-GEOIP,CN,🎯 全球直连
+GEOIP,CN,direct
 FINAL,🐟 漏网之鱼
 
 [rewrite_local]
