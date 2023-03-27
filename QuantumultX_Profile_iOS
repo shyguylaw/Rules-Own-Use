@@ -15,9 +15,6 @@ static=🇭🇰 香港节点, HK_VMess_WS, img-url=h.circle.fill.system
 static=🇺🇸 美国节点, USA_VMess_WS, img-url=u.circle.fill.system
 static=指向香港节点 🇭🇰, 🇭🇰 香港节点, img-url=h.circle.fill.system
 static=指向美国节点 🇺🇸, 🇺🇸 美国节点, img-url=u.circle.fill.system
-static=Traffic2HK, 指向香港节点 🇭🇰, img-url=p.square.system
-static=Traffic2USA, 指向美国节点 🇺🇸, img-url=p.square.system
-static=Traffic2CN, direct, img-url=d.square.system
 static=Microsoft, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=p.square.system
 static=Bing, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=p.square.system
 static=WeChat, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=p.square.system
@@ -31,9 +28,6 @@ static=🐟 漏网之鱼, 指向美国节点 🇺🇸, 指向香港节点 🇭�
 [server_remote]
 
 [filter_remote]
-https://raw.githubusercontent.com/shyguylaw/Rules/main/Traffic2HK?token=GHSAT0AAAAAACATD2DIJJD66EQCOWFL3BXSZBBNFGQ, tag=Traffic2HK, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/shyguylaw/Rules/main/Traffic2USA?token=GHSAT0AAAAAACATD2DJKINYPD4XK2P3SIFMZBBNFQA, tag=Traffic2USA, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/shyguylaw/Rules/main/Traffic2CN?token=GHSAT0AAAAAACATD2DJ2X5TPQFMIUOHVXMSZBBNFAQ, tag=Traffic2CN, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list, tag=Microsoft, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Bing/Bing.list, tag=Bing, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, tag=WeChat, update-interval=172800, opt-parser=false, enabled=true
@@ -50,6 +44,22 @@ vmess = matttx.shyguy.cyou:443, method=chacha20-ietf-poly1305, password=654096af
 vmess = usatx.shyguy.cyou:443, method=chacha20-ietf-poly1305, password=2e5d8290-2d34-4cda-a4d7-b113c3493d71, aead=true, tls13=false, obfs=wss, obfs-host=usatx.shyguy.cyou, obfs-uri=/lawvws, fast-open=false, udp-relay=true, tag=USA_VMess_WS
 
 [filter_local]
+host-suffix, etsy.com, 指向香港节点 🇭🇰
+host-suffix, etsystatic.com, 指向香港节点 🇭🇰
+host-suffix, binance.com, 指向香港节点 🇭🇰
+host-suffix, binance.cloud, 指向香港节点 🇭🇰
+host-suffix, facebook.com, 指向香港节点 🇭🇰
+host-suffix, paypal.com, 指向香港节点 🇭🇰
+host-suffix, openai.com, 指向美国节点 🇺🇸
+host-suffix, gstatic.com, 指向美国节点 🇺🇸
+host-suffix, ocsp.pki.goog, 指向美国节点 🇺🇸
+host-suffix, clarity.ms, 指向美国节点 🇺🇸
+host-suffix, akamaized.net, 指向美国节点 🇺🇸
+host-suffix, bitcoinstats.com, direct
+host-suffix, bitnodes.io, direct
+host-suffix, shopee.com, direct
+host-suffix, coinw.cool, direct
+host-suffix, hyperpay.online, direct
 GEOIP,CN,direct
 FINAL,🐟 漏网之鱼
 
