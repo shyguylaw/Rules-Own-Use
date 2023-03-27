@@ -1,0 +1,9 @@
+# NAME: Traffic2HK
+# AUTHOR: shyguylaw
+# HOST-SUFFIX: 1250
+host-suffix, etsy.com, 指向香港节点 🇭🇰
+host-suffix, etsystatic.com, 指向香港节点 🇭🇰
+host-suffix, binance.com, 指向香港节点 🇭🇰
+host-suffix, binance.cloud, 指向香港节点 🇭🇰
+host-suffix, facebook.com, 指向香港节点 🇭🇰
+host-suffix, paypal.com, 指向香港节点 🇭🇰
