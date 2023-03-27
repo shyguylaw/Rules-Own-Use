@@ -25,6 +25,7 @@ static=Telegram, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, rejec
 static=Apple, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=p.square.system
 static=Google, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=p.square.system
 static=Alibaba, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=p.square.system
+static=Amazon, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=p.square.system
 static=🐟 漏网之鱼, 指向美国节点 🇺🇸, 指向香港节点 🇭🇰, reject, direct, img-url=p.square.system
 
 [server_remote]
@@ -36,10 +37,11 @@ https://raw.githubusercontent.com/shyguylaw/Rules/main/Traffic2CN?token=GHSAT0AA
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list, tag=Microsoft, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Bing/Bing.list, tag=Bing, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, tag=WeChat, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list, tag=Telegram, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Apple/Apple.list, tag=Apple, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list, tag=Telegram, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=Apple, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list, tag=Google, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Alibaba/Alibaba.list, tag=Alibaba, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Alibaba/Alibaba.list, tag=Alibaba, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Amazon/Amazon.list, tag=Amazon, update-interval=172800, opt-parser=false, enabled=true
 
 [rewrite_remote]
 
