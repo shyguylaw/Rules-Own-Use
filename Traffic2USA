@@ -1,0 +1,8 @@
+# NAME: Traffic2HK
+# AUTHOR: shyguylaw
+# HOST-SUFFIX: 1250
+host-suffix, openai.com, 指向美国节点 🇺🇸
+host-suffix, gstatic.com, 指向美国节点 🇺🇸
+host-suffix, ocsp.pki.goog, 指向美国节点 🇺🇸
+host-suffix, clarity.ms, 指向美国节点 🇺🇸
+host-suffix, akamaized.net, 指向美国节点 🇺🇸
