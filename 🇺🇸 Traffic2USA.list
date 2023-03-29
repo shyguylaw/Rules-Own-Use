@@ -5,3 +5,8 @@ host-suffix, gstatic.com, 指向美国节点 🇺🇸
 host-suffix, ocsp.pki.goog, 指向美国节点 🇺🇸
 host-suffix, clarity.ms, 指向美国节点 🇺🇸
 host-suffix, akamaized.net, 指向美国节点 🇺🇸
+host-suffix, ebay.com, 指向美国节点 🇺🇸
+host-suffix, ebay.com.hk, 指向美国节点 🇺🇸
+host-suffix, ebay.co.uk, 指向美国节点 🇺🇸
+host-suffix, ebay.com.au, 指向美国节点 🇺🇸
+host-suffix, ebay.de, 指向美国节点 🇺🇸
