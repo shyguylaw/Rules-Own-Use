@@ -16,10 +16,3 @@ host-suffix, facebook.com, 指向香港节点 🇭🇰
 host-suffix, github.com, 指向香港节点 🇭🇰
 host-suffix, githubusercontent.com, 指向香港节点 🇭🇰
 host-suffix, bbc.com, 指向香港节点 🇭🇰
-
-# T-mobile
-csl.prod.ondemandconnectivity.com
-hhk.prod.ondemandconnectivity.com
-epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
-ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
-ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org
