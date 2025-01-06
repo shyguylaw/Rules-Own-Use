@@ -12,6 +12,10 @@ host-suffix, tello.com, 指向美国节点 🇺🇸
 host-suffix, bard.google.com, 指向美国节点 🇺🇸
 host-suffix, ultramobile.com, 指向美国节点 🇺🇸
 host-suffix, ultra.me, 指向美国节点 🇺🇸
+host-suffix, t-mobile.com, 指向美国节点 🇺🇸
+host-suffix, 208.54.0.0/16, 指向美国节点 🇺🇸
+host-suffix, 66.94.0.0/19, 指向美国节点 🇺🇸
+host-suffix, 206.29.177.36, 指向美国节点 🇺🇸
 host-suffix, credit.com, 指向美国节点 🇺🇸
 host-suffix, capitalone.com, 指向美国节点 🇺🇸
 host-suffix, verizonwireless.com, 指向美国节点 🇺🇸
