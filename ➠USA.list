@@ -89,3 +89,6 @@ host-suffix, go2bank.com, 指向美国节点 🇺🇸
 host-suffix, united.com, 指向美国节点 🇺🇸
 host-suffix, realtor.com, 指向美国节点 🇺🇸
 host-suffix, venmo.com, 指向美国节点 🇺🇸
+host-suffix, etsy.com, 指向美国节点 🇺🇸
+host-suffix, etsystatic.com, 指向美国节点 🇺🇸
+host-suffix, etsy.me, 指向美国节点 🇺🇸
